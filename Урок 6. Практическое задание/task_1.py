@@ -15,3 +15,13 @@
 
 Проверить работу примера, создав экземпляр и вызвав описанный метод.
 """
+from time import sleep
+class TrafficLight:
+    def __init__(self, color):
+        self.color = color
+    def running (self):
+        for art,op in self.color.items():
+            print (art)
+            sleep(op)
+b = TrafficLight(color = {"Красный":7, "Желтый":2, "Зеленый": 4})
+b.running()
