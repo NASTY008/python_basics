@@ -25,3 +25,6 @@
 
 Два класса: абстрактный и Clothes
 """
+print(f'Расход ткани на пальто: {mr_anderson.textile_wastage}')
+print(f'Расход ткани на костюм: {agent_smith.textile_wastage}')
+print(f'Общий расход ткани: {total_textile_wastage}')
