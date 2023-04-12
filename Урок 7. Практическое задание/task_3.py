@@ -100,3 +100,7 @@ print(cell2.make_order(10))
 *****\n *****\n *****\n *****\n *****\n *****\n
 **********\n **********\n *****
 """
+print(cell1.make_order(5))
+print(cell2.make_order(10))
+print(cell3.make_order(5))
+print(cell4.make_order(10))
